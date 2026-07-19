@@ -12,3 +12,4 @@ When unsure about any decision in this project, check it against these. If it do
 8. **Content before platform.** Lessons have value without a website. A website has none without lessons. The site is a viewer, built in one weekend, later.
 9. **Consistency beats intensity.** Three real hours a week that happen beat a twenty-hour plan that collapses.
 10. **Build systems, not shortcuts.** Anything worth doing twice gets documented so the next learner can do it too.
+11. **Every investigation claim follows Observation → Evidence → Reasoning → Conclusion → Confidence.** Not "this looks bad," but: what you saw, what proves it, why that matters, what you conclude, and how sure you are. This is the shape real incident responders write in, and it forces reasoning to be checkable instead of vibes.
