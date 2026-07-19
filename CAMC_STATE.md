@@ -12,7 +12,7 @@
 
 ## Status
 
-- [x] Investigation - evidence gathered (see [notes.md](curriculum/00-computer-fundamentals/notes.md))
+- [x] Investigation - report complete (see [evidence/investigation-report.md](labs/00-computer-fundamentals/evidence/investigation-report.md))
 - [ ] Lesson - pending
 - [ ] Lab
 - [ ] Quiz
