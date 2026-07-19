@@ -9,7 +9,7 @@ You do not start this module by reading. You start it by investigating your own 
 
 Every module ships exactly eight artifacts. This module is not done until every box is checked and the final question is answered.
 
-- [ ] Investigation ([investigation.md](./investigation.md)) - do this FIRST
+- [x] Investigation ([investigation.md](./investigation.md), report in [evidence/investigation-report.md](../../labs/00-computer-fundamentals/evidence/investigation-report.md))
 - [ ] Lesson ([lesson.md](./lesson.md)) - written after the investigation, from what you needed to learn
 - [ ] Lab ([lab.md](./lab.md))
 - [ ] Notes ([notes.md](./notes.md))
