@@ -1,64 +1,42 @@
 # CAMC State
 
-> The single source of truth for where this curriculum stands. Any AI mentor or future session starts here. Updated at the end of every study session.
+> Save-game file. Any mentor (me, ChatGPT, future AI) reads this first and knows exactly where we are. Detail lives in module files, not here - see [CHANGELOG.md](CHANGELOG.md) for history.
 
 **Last updated:** 2026-07-19
 
-## Current position
+## Where we are
 
-- **Phase:** 1 (foundation, target completion December 2026)
-- **Module:** 00 - Computer Fundamentals
-- **Current investigation:** Investigation 0.1 - What is running on my computer?
-- **Status:** IN PROGRESS - evidence gathered, synthesis and formal lesson not yet written
+- **Phase:** 1 of 2 (foundation, target December 2026)
+- **Module:** [00 - Computer Fundamentals](curriculum/00-computer-fundamentals/README.md)
+- **Lesson:** 1 - What is a Process?
 
-## Module 00 artifact status
+## Status
 
-- [ ] Investigation (IN PROGRESS - process snapshot taken, findings logged in notes.md, formal report not yet written to `labs/00-computer-fundamentals/evidence/`)
-- [ ] Lesson (next up: "What is a Process?" - see Next Action)
+- [x] Investigation - evidence gathered (see [notes.md](curriculum/00-computer-fundamentals/notes.md))
+- [ ] Lesson - pending
 - [ ] Lab
-- [x] Notes (in progress, being updated live - see [notes.md](curriculum/00-computer-fundamentals/notes.md))
-- [ ] Quiz (LOCKED until lesson exists)
+- [ ] Quiz
 - [ ] Portfolio Evidence
 - [ ] Reflection
 
-## What's been learned so far (evidence-backed)
+## Current focus
 
-- PowerShell basics: the `Get-Something | Select-Object | Sort-Object` pipe pattern
-- Ran `Get-Process` and `Get-CimInstance Win32_Process` against own machine
-- Total process count: 281
-- Top repeaters: svchost.exe (96), chrome.exe (44), msedgewebview2.exe (12), claude.exe (12), RuntimeBroker.exe (7)
-- svchost.exe hosts many different Windows services behind one shared executable (`-k Group -s Service`); most CommandLine values were blank in non-elevated PowerShell, suspected permissions gap, not yet confirmed with an elevated session
-- Chrome runs one main process plus many `--type=renderer/gpu-process/utility/crashpad-handler` children, for crash isolation and security separation
-- Full stuck-list of 11 questions captured in notes.md, ready to drive lesson.md
+Understanding what a process is, why one executable (svchost.exe, chrome.exe) can run as dozens of instances doing different things.
 
-## Open questions carried between sessions
+## Current blocker
 
-See "Questions for my mentors" in [notes.md](curriculum/00-computer-fundamentals/notes.md) - 11 questions, including: what is a process, why can malware disguise as a normal process name, what does ParentProcessId actually prove, does elevated PowerShell reveal the blank CommandLine fields.
+Taiwo answering "what is a process?" in their own words before the formal lesson is taught.
 
-## Next actions
+## Next lesson
 
-1. Taiwo: answer "What is a process?" in your own words first (no lookup)
-2. Mentor: teach the formal concept, compare against Taiwo's own answer
-3. Optional: re-run svchost CommandLine query in an elevated PowerShell window to test the permissions theory
-4. Pick a verdict (JUSTIFIED/UNKNOWN/SUSPICIOUS) for the empty-ExecutablePath process spotted earlier (AdGuardVpnSvc.exe / Com4QLBEx.exe / cowork-svc.exe)
-5. Write investigation-report.md and export the CSV to `labs/00-computer-fundamentals/evidence/`
-6. Co-write lesson.md from the full stuck-list, then quiz.md, then reflection.md
-7. Meaningful commit closing Module 00
+Program vs. Process
+
+## Standing constraint
+
+Taiwo is on a Pro plan, no budget for upgrades. Keep everything model-agnostic and free-resource-first (own machine as lab, Sysmon, Wireshark, TryHackMe/LetsDefend free tiers).
 
 ## Division of labor
 
 - **ChatGPT:** first-principles explanations, lesson/quiz design, reasoning review
-- **Claude Code:** local machine work, lab setup, artifact review against real evidence, commits
-- **Taiwo:** the actual investigating - no artifact, no progress
-
-## Standing constraint
-
-Taiwo is on a Pro plan and cannot afford upgrades. Design everything model-agnostic; this state file exists specifically so any mentor (ChatGPT free tier, Claude at any tier) can resume instantly. Prefer free tools/resources (own machine as lab, Sysmon, Wireshark, TryHackMe/LetsDefend free tiers) over paid recommendations.
-
-## Session log
-
-| Date | What happened | Commit |
-|------|---------------|--------|
-| 2026-07-19 | Framework agreed; Module 00 launched; Investigation 0.1 issued | ca43413 |
-| 2026-07-19 | Philosophy + state file established | efd2ad3 |
-| 2026-07-19 | Investigation 0.1 evidence gathering: process counts, svchost/Chrome multi-process findings, stuck-list captured | (pending commit) |
+- **Claude Code:** local machine work, artifact review against real evidence, commits
+- **Taiwo:** the investigating - no artifact, no progress
