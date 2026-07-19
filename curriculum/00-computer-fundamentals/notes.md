@@ -2,6 +2,25 @@
 
 Your working notes. Messy is fine. Write while you investigate, not after.
 
+## Core Principle #1: Evidence First
+
+> A program is a set of instructions. A process is a running instance of that program. Whether a file is malicious and whether it is currently executing are separate questions. I should only make claims that my evidence supports.
+
+This is the first cybersecurity principle earned from Investigation 0.1. It will come back in networking, logs, malware analysis, and incident response - every one of those is ultimately the same discipline: separate what the evidence proves from what I'm assuming.
+
+## Prediction: What is a process? (before the lesson)
+
+- My guess:
+- How I think it works:
+- Confidence (low/medium/high):
+- Why I think that:
+
+## Prediction vs. reality (after the lesson)
+
+- What I got right:
+- What I got wrong:
+- What surprised me:
+
 ## Commands that worked
 
 ```powershell
