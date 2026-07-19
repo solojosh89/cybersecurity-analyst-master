@@ -12,3 +12,5 @@ One line per meaningful commit. This is the "how did we get here" story; [CAMC_S
 - Added Prediction/Prediction-vs-reality as the standing first section of every module's notes.md.
 - Adopted Observation-Evidence-Reasoning-Conclusion-Confidence as the standard format for every investigation claim (PHILOSOPHY.md rule 11).
 - **Completed Module 00 - Computer Fundamentals.** All 8 artifacts done: 281-process baseline investigation (278 JUSTIFIED, 3 UNKNOWN, 0 SUSPICIOUS), Layer-1-scoped lesson, quiz answered independently and correctly, portfolio summary, honest reflection. Earned Core Principle #1: a process name alone is never evidence.
+- Added GLOSSARY.md as a lightweight term index (links back to lessons, no duplicated explanations).
+- **Launched Module 01 - Networking.** Issued Investigation 1.1: "Who is my computer talking to?" (active TCP connections, owning process, JUSTIFIED/UNKNOWN/SUSPICIOUS verdicts).

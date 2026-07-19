@@ -7,24 +7,25 @@
 ## Where we are
 
 - **Phase:** 1 of 2 (foundation, target December 2026)
-- **Module:** [00 - Computer Fundamentals](curriculum/00-computer-fundamentals/README.md) - **COMPLETE**
-- **Next module:** 01 - Networking (not yet started)
+- **Module:** [01 - Networking](curriculum/01-networking/README.md) - IN PROGRESS
+- **Previous module:** [00 - Computer Fundamentals](curriculum/00-computer-fundamentals/README.md) - COMPLETE
 
 ## Status
 
-Module 00: all 8 artifacts complete. See [curriculum/00-computer-fundamentals/README.md](curriculum/00-computer-fundamentals/README.md) for the full summary.
+- [ ] Investigation 1.1 - ISSUED: "Who is my computer talking to?" (active TCP connections, owning process, JUSTIFIED/UNKNOWN/SUSPICIOUS verdicts using Observation-Evidence-Reasoning-Conclusion-Confidence format)
+- [ ] Lesson, Lab, Notes, Quiz, Portfolio, Reflection - locked/pending until investigation is done
 
 ## Current focus
 
-Choosing the first investigation for Module 01 - Networking.
+Taiwo running Investigation 1.1 on their own machine.
 
 ## Current blocker
 
-None. Ready to start Module 01.
+Taiwo running the investigation and producing the report.
 
 ## Next lesson
 
-Module 01, Lesson 1 - not yet scoped. Likely first investigation: capture and read your own machine's DNS/network traffic (mirrors the "investigate your own system first" pattern from Module 00).
+Module 01, Lesson 1 (Layer 1 only) - written from Taiwo's stuck-list after Investigation 1.1.
 
 ## Standing constraint
 
