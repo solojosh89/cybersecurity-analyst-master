@@ -16,15 +16,15 @@ Module 01 restructured 2026-07-19: 17-step prerequisite-gated lesson sequence (s
 
 ## Current focus
 
-Taiwo completing Lesson 1 classwork, then Lesson 2 (Information and bits).
+Taiwo reports 18 networking topics covered on the ChatGPT side (DNS, IP, MAC, DHCP, ARP, switches, routers, packets, ports, TCP/UDP, HTTP/HTTPS, GET/POST, status codes, cookies, sessions, auth, firewalls) - claimed ~85% of Module 01. Not yet reflected as repo evidence (rule 1: repo is the referee). A checkpoint quiz ([quiz.md](curriculum/01-networking/quiz.md), 18 questions) has been issued to convert the claim into real, checkable evidence before marking anything complete.
 
 ## Current blocker
 
-Taiwo answering Lesson 1 classwork in notes.md.
+Taiwo answering the Module 01 checkpoint quiz from memory in notes.md. Once in: mark verified topics complete in README.md, identify genuinely shaky spots (those become real next lessons, not filler), and - since IP/Ports/TCP/States are among the claimed topics - likely unlock and actually run the Get-NetTCPConnection lab in future-labs.md for the first time.
 
 ## Next lesson
 
-Module 01, Lesson 2 - Information and bits.
+Pending checkpoint quiz results. NOT necessarily NAT - only once everything already claimed is verified.
 
 ## Documented exception (2026-07-19)
 
