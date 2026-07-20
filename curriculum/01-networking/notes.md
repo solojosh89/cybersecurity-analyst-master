@@ -1,25 +1,15 @@
 # Notes: Module 01
 
-## Prediction: What does it mean for my computer to be "talking" to something? (before the lesson)
+## Lesson 1: Why Networks Exist
+
+### Classwork
+
+1. Adapters and guessed purpose:
+2. Why can't two computers just share memory directly?
+
+## Prediction: What does it mean for my computer to be "talking" to something? (revisit once we reach ports/TCP)
 
 - **My guess:**
 - **How I think it works:**
 - **Confidence:**
 - **Why I think that:**
-
-## Prediction vs. reality (after the lesson)
-
-- **What I got right:**
-- **What I got wrong:**
-- **What I learned:**
-- **Confidence after:**
-
-## Commands that worked
-
-## Findings
-
-## Things I did not expect
-
-## Questions for my mentors
-
-## Struggle log (honest)
